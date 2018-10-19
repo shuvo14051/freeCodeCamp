@@ -83,3 +83,20 @@ themes that build on the Bootstrap framework to provide a more customized and st
 [HTML linter for projects using Bootstrap](https://github.com/twbs/bootlint)
 [Design elements and code snippets for Bootstrap](https://bootsnipp.com/)
 [Code, theme, and add-on resources for Bootstrap](http://expo.getbootstrap.com/resources/)
+#### Images:
+Bootstrap provides us  opportunities to make our websites more beautiful with small effort. It proveides some classes to make images responsive.
+**
+.img-fluid class makes images responsve.
+Example: <img src = "img_name.jpg" alt = "image"  class = "img-fluid"/> (We should use the alt attribute. It's a good coding practice.)
+**
+.rounded class adds rounded corner to an igmae.
+Example: <img src = "img_name.jpg" alt = "image"  class = "rounded"/>
+**
+.rounded-circle class shapes the image to a circle.
+Example: <img src = "img_name.jpg" alt = "image"  class = "rounded-circle"/>
+**
+.img-thumbnail class shapes the image to a thumbnail.
+Example: <img src = "img_name.jpg" alt = "image"  class = "img-thumbnail"/>
+**
+.mx-auto .d-block classes place an image into center
+Example: <img src = "img_name.jpg" alt = "image"  class = "mx-auto d-block"/>
